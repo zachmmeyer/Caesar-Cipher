@@ -1,5 +1,6 @@
 def character_alpha?(character_ordinal)
-  (65..90).cover?(character_ordinal) || (97..122).cover?(character_ordinal) ? true : false
+  (65..90).cover?(character_ordinal) || 
+  (97..122).cover?(character_ordinal) ? true : false
 end
 
 def alpha_character_above_range?(character_ordinal, shifted_ordinal)
